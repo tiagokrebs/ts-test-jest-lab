@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --coverage",
     "test:coverage": "jest --coverage",
     "start": "ts-node src/app/server_app/Launcher.ts"
   },
